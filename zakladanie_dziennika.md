@@ -10,16 +10,31 @@
 
    ![Sekcja Ustawienia dziennika](imgs/dziennik_oddzialu_ustawienia.png)
 
-4) Zweryfikuj listę uczniów, ewentualne niezgodności zgłoś do sekretariatu za pomocą modułu *Wiadomości*.
+4) Zweryfikuj listę uczniów, jeżeli trzeba ucznia dodać lub usunąć, kliknij przycisk "Zmień uczniów".
+
+    - Aby dodać ucznia do klasy, przenieś go na prawo (np. dwa razy klikając), aby usunąć – na lewo.
+    - W trakcie roku szkolnego możesz również zaznaczyć skreślenie ucznia.
+    - Ustal kolejność uczniów za pomocą przycisków strzałek po prawej stronie okna.
+    - Zapisz zmiany, kliknij przycisk "Zapisz" w prawym dolnym rogu okna.   
+
+   ![Okno Zmień uczniów](imgs/zmiana_uczniow.png)
+
+5) Jeżeli brakuje ucznia, który powinien być w klasie, zgłoś to do sekretariatu za pomocą modułu *Wiadomości*.
 
 ## Przedmioty i nauczyciele
 
-Wybierz **Przedmioty i nauczyciele** w sekcji *Ustawienia dziennika* i kliknij **Zmień listę przedmiotów i nauczycieli**.
+W sekcji *Ustawienia dziennika* wybierz **Przedmioty i nauczyciele**:
+
+   ![Sekcja Ustawienia dziennika](imgs/dziennik_oddzialu_ustawienia.png)
+
+Następnie kliknij przycisk **Zmień listę przedmiotów i nauczycieli**.
 
 ### Przedmioty
 
 1) Kliknij przycisk **Zmiana przedmiotów**.
-2) Do prawego panelu przenieś nazwy nauczanych w klasie przedmiotów (np. dwa razy klikając) i uporządkuj je (za pomocą przycisków strzałek) według kolejności w arkuszu lub na świadectwach. Zapisz zmiany klikając w prawym dolnym rogu przycisk **Zapisz**.
+2) Do prawego panelu przenieś nazwy nauczanych w klasie przedmiotów.
+   Przedmioty uporządkuj (za pomocą przycisków strzałek) według kolejności w arkuszu lub na świadectwach.
+   Zapisz zmiany, kliknij przycisk **Zapisz** w prawym dolnym rogu okna.
 
    ![Przypisywanie przedmiotów](imgs/zmiana_przedmiotow.png)
 
@@ -58,7 +73,8 @@ Wybierz **Przedmioty i nauczyciele** w sekcji *Ustawienia dziennika* i kliknij *
 
 ### Przypisanie przedmiotów do nauczycieli
 
-1) Przypisz nauczycieli do przedmiotów. Zapisz zmiany!
+1) Przypisz nauczycieli do przedmiotów, kliknij odpowiednią komórkę w tabeli.
+   Zapisz zmiany!
 
     ![Przypisywanie nauczycieli do przedmiotów](imgs/zmiana_przedmiotow_nauczycieli.png)
 
@@ -68,21 +84,27 @@ Wybierz **Przedmioty i nauczyciele** w sekcji *Ustawienia dziennika* i kliknij *
 
 ## Grupy
 
-Wybierz **Grupy** w sekcji *Ustawienia dziennika* i kliknij **Zmień listę grup**.
+W sekcji *Ustawienia dziennika* wybierz **Grupy**:
+
+   ![Sekcja Ustawienia dziennika](imgs/dziennik_oddzialu_ustawienia.png)
+
+### Zmiana listy grup
+
+Kliknij przycisk **Zmień listę grup**.
 
 ![Zmiana listy grup](imgs/zmien_grupy.png)
 
-Do prawego panelu przenieś nazwy grup zgodnie ze wskazówkami:
+Na prawą stronę przenieś nazwy grup zgodnie ze wskazówkami:
 
-- Grupy dodajemy tylko wtedy, kiedy w lekcji nie uczestniczy cała klasa.
-- Dla przedmiotu nauczanego na poziomie podstawowym wybierz grupy lub grupę z przyrostkiem **_1, _2**, np. **INF_1, INF_2, EDB_1, EDB_2, JA_1, JA_2, ...**
+- **Grupy dodajemy tylko wtedy, kiedy w lekcji nie uczestniczy cała klasa**.
+- Dla przedmiotu nauczanego na poziomie podstawowym wybierz grupę(y) z przyrostkiem **_1, _2**, np. **INF_1, INF_2, EDB_1, EDB_2, JA_1, JA_2, ...**
 - Dla przedmiotu nauczanego na poziomie rozszerzonym wybierz grupę z przyrostkiem **_r**, np. **INF_r, FIZ_r, MAT_r, GEO_r, WOS_r, HIS_r, POL_r, ...**
 - Dla przedmiotu nauczanego w tej samej grupie na poziomie podstawowym i rozszerzonym wybierz grupę z przyrostkiem **_pr**, np. **FIZ_pr, GEO_pr, ...**
 - W przypadku innych niz angielski języków obcych wybierz grupy oznaczone **JW, JN, JH, JF**.
 - W przypadku wf-u dzielonego w klasie wybierz **WF_dz, WF_ch**.
 - W przypadku wf-u międzyoddziałowego wybieramy grupy opisane jako *międzyoddz.*, np. **WF dz międzyoddz. 1**.
 
-Wybór odpowiedniej grupy ułatwia plan lekcji w wersji HTML oraz (tylko teraz) plan lekcji w dotychczasowym dzienniku.
+Wybór odpowiedniej grupy ułatwia plan lekcji w wersji HTML oraz (tylko teraz) plan lekcji w Mobidzienniku.
 
 ### Przykłady wyboru grupy
 
@@ -117,27 +139,31 @@ W bieżącym roku szkolnym podczas wybierania grup możemy wspomóc się analiz�
 
 Zapisz zmiany i skontroluj ich poprawność!
 
-## Przynależność do grup
+### Zmiana przynależności do grup
 
-Wybierz **Grupy** w sekcji *Ustawienia dziennika* i kliknij **Zmień przynależność**.
+Kliknij przycisk **Zmień przynależność**.
 
 ![Zmiana przynależności do grup](imgs/zmien_pzynaleznosc.png)
 
-Przypisz uczniów do grup klikając odpowiednie pole.
+Przypisz uczniów do grup, kliknij odpowiednie pole w tabeli. Zapisz zmiany!
 
 **Uwagi**:
 
 W bieżącym roku szkolnym skład grup można sprawdzić w Mobidzienniku.
 
-Zapisz zmiany i skontroluj ich poprawność!
-
 # Uczniowie i przedmioty
 
-Wybierz **Uczniowie i przedmioty** w sekcji *Ustawienia dziennika* i kliknij **Zmień opis przedmiotów**.
+W sekcji *Ustawienia dziennika* wybierz **Uczniowie**:
+
+   ![Sekcja Ustawienia dziennika](imgs/dziennik_oddzialu_ustawienia.png)
+
+Kliknij przycisk **Zmień opis przedmiotów**, aby zmienić oznaczenia poziomu nauczanych języków
+oraz wskazać przedmioty realizowane na poziomie rozszerzonym.
 
 ![Zmiana oznaczeń przedmiotów](imgs/opis_przedmiotow.png)
 
 Oznacz poziom nauczania języka oraz ewentualny zakres rozszerzony przedmiotu realizowane przez ucznia.
 Po zaznaczeniu ucznia i przedmiotu wybierz oznaczenie z prawej strony okna.
 
-Zapisz zmiany i skontroluj poprawność zmian!
+Zapisz zmiany!
+
