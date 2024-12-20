@@ -1,44 +1,63 @@
-# Konfiguracja dziennika klasy
+Konfiguracja dziennika i klasy
+###############################
 
-1) Po zalogowaniu się do dziennika kliknij rozwijalne menu obok swojego nazwiska w prawym górnym rogu i wybierz **Dziennik**.
+:date: 2024-12-19 10:30
+:category: Vulcan
+:tags: konfiguracja
+:slug: konfiguracja_dziennika
+:author: Robert Bednarz
+:summary: Informacje nt. przygotowania dziennika klasy
+
+Konfiguracja dziennika klasy
+*****************************
+
+1) Po zalogowaniu się do dziennika kliknij rozwijalne menu obok swojego nazwiska w prawym górnym rogu
+   i wybierz **Dziennik**.
 
 2) Kliknij ikonę **Dziennik oddziału**, a następnie nazwę swojej klasy w panelu po lewej stronie:
 
-   ![Ikona Dziennik oddziału i lista klas](../imgs/dziennik_oddzialu_01.png)
+   .. image:: {static}/images/dziennik_oddzialu_01.png
+       :alt: Ikona Dziennik oddziału i lista klas
 
 3) W sekcji *Ustawienia dziennika* wybierz **Uczniowie**:
 
-   ![Sekcja Ustawienia dziennika](../imgs/dziennik_oddzialu_ustawienia.png)
+   .. image:: {static}/images/dziennik_oddzialu_ustawienia.png
+       :alt: Sekcja Ustawienia dziennika
 
-4) Zweryfikuj listę uczniów, jeżeli trzeba ucznia dodać lub usunąć, kliknij przycisk "Zmień uczniów".
+4) Zweryfikuj listę uczniów, jeżeli trzeba ucznia dodać lub usunąć, kliknij przycisk **Zmień uczniów**.
 
     - Aby dodać ucznia do klasy, przenieś go na prawo (np. dwa razy klikając), aby usunąć – na lewo.
     - W trakcie roku szkolnego możesz również zaznaczyć skreślenie ucznia.
     - Ustal kolejność uczniów za pomocą przycisków strzałek po prawej stronie okna.
     - Zapisz zmiany, kliknij przycisk "Zapisz" w prawym dolnym rogu okna.   
 
-   ![Okno Zmień uczniów](../imgs/zmiana_uczniow.png)
+   .. image:: {static}/images/zmiana_uczniow.png
+       :alt: Okno Zmień uczniów
 
 5) Jeżeli brakuje ucznia, który powinien być w klasie, zgłoś to do sekretariatu za pomocą modułu *Wiadomości*.
 
-## Przedmioty i nauczyciele
+Przedmioty i nauczyciele
+*************************
 
 W sekcji *Ustawienia dziennika* wybierz **Przedmioty i nauczyciele**:
 
-   ![Sekcja Ustawienia dziennika](../imgs/dziennik_oddzialu_ustawienia.png)
+   .. image:: {static}/images/dziennik_oddzialu_ustawienia.png
+       :alt: Sekcja Ustawienia dziennika
 
 Następnie kliknij przycisk **Zmień listę przedmiotów i nauczycieli**.
 
-### Przedmioty
+Przedmioty
+==========
 
 1) Kliknij przycisk **Zmiana przedmiotów**.
 2) Do prawego panelu przenieś nazwy nauczanych w klasie przedmiotów.
    Przedmioty uporządkuj (za pomocą przycisków strzałek) według kolejności w arkuszu lub na świadectwach.
    Zapisz zmiany, kliknij przycisk **Zapisz** w prawym dolnym rogu okna.
 
-   ![Przypisywanie przedmiotów](../imgs/zmiana_przedmiotow.png)
+   .. image:: {static}/images/zmiana_przedmiotow.png
+       :alt: Przypisywanie przedmiotów
 
-   Przykładowa kolejność przedmiotów:
+    Przykładowa kolejność przedmiotów:
 
     1. religia / etyka
     2. j. polski
@@ -64,35 +83,46 @@ Następnie kliknij przycisk **Zmień listę przedmiotów i nauczycieli**.
     22. historia i teraźniejszość
     23. biznes i zarządzanie
 
-### Nauczyciele
+Nauczyciele
+===========
 
 1) Kliknij przycisk **Zmiana nauczycieli**.
 2) Do prawego panelu przenieś nauczycieli uczących w klasie. Zapisz zmiany!
 
-   ![Przypisywanie nauczycieli](../imgs/zmiana_nauczycieli.png)
+   .. image:: {static}/images/zmiana_nauczycieli.png
+       :alt: Przypisywanie nauczycieli
 
-### Przypisanie przedmiotów do nauczycieli
+Przypisanie przedmiotów do nauczycieli
+======================================
 
 1) Przypisz nauczycieli do przedmiotów, kliknij odpowiednią komórkę w tabeli.
    Zapisz zmiany!
 
-    ![Przypisywanie nauczycieli do przedmiotów](../imgs/zmiana_przedmiotow_nauczycieli.png)
+   .. image:: {static}/images/zmiana_nauczycieli.png
+       :alt: Przypisywanie nauczycieli
+    ![Przypisywanie nauczycieli do przedmiotów](images/zmiana_przedmiotow_nauczycieli.png)
 
 2) Sprawdź listę przedmiotów i nauczycieli:
 
-    ![Lista przedmiotów i nauczycieli](../imgs/przedmioty_nauczyciele.png)
+   .. image:: {static}/images/zmiana_nauczycieli.png
+       :alt: Przypisywanie nauczycieli
+    ![Lista przedmiotów i nauczycieli](images/przedmioty_nauczyciele.png)
 
 ## Grupy
 
 W sekcji *Ustawienia dziennika* wybierz **Grupy**:
 
-   ![Sekcja Ustawienia dziennika](../imgs/dziennik_oddzialu_ustawienia.png)
+   .. image:: {static}/images/zmiana_nauczycieli.png
+       :alt: Przypisywanie nauczycieli
+   ![Sekcja Ustawienia dziennika](images/dziennik_oddzialu_ustawienia.png)
 
 ### Zmiana listy grup
 
 Kliknij przycisk **Zmień listę grup**.
 
-![Zmiana listy grup](../imgs/zmien_grupy.png)
+   .. image:: {static}/images/zmiana_nauczycieli.png
+       :alt: Przypisywanie nauczycieli
+![Zmiana listy grup](images/zmien_grupy.png)
 
 Na prawą stronę przenieś nazwy grup zgodnie ze wskazówkami:
 
@@ -110,7 +140,9 @@ Wybór odpowiedniej grupy ułatwia plan lekcji w wersji HTML oraz (tylko teraz) 
 
 Interpretacja planu lekcji w [wersji HTML](https://lo1.sandomierz.pl/plany/ostatni/index.html) dla przykładowej klasy 1AB:
 
-![Plan klasy 1AB HTML](../imgs/plan_1AB_html.png)
+   .. image:: {static}/images/zmiana_nauczycieli.png
+       :alt: Przypisywanie nauczycieli
+![Plan klasy 1AB HTML](images/plan_1AB_html.png)
 
 |Lekcja|Dzień|Grupy na planie HTML|Grupy w dzienniku Vulcan|
 | ------- | ------- | ------- | ------- |
@@ -132,7 +164,9 @@ Interpretacja planu lekcji w [wersji HTML](https://lo1.sandomierz.pl/plany/ostat
 
 W bieżącym roku szkolnym podczas wybierania grup możemy wspomóc się analizą planu z Mobidziennika.
 
-![Plan klasy 1AB w Mobidzienniku](../imgs/plan_1AB_mobi.png)
+   .. image:: {static}/images/zmiana_nauczycieli.png
+       :alt: Przypisywanie nauczycieli
+![Plan klasy 1AB w Mobidzienniku](images/plan_1AB_mobi.png)
 
 1. Np. na 2. lekcji w poniedziałek i 3. lekcji we wtorek widzimy te same grupy z fizyki i geografii, dla których należy wybrać grupy **GEO_pr** / **FIZ_pr**.
 2. Na 8. i 9. lekcji w czwartek oraz 8. lekcji w piątek widzimy te same grupy z wf-u, dla których wybieramy oznaczenia **WF_dz_1** / **WF_ch_1** w klasach 1AB i 1DE.
@@ -143,7 +177,9 @@ Zapisz zmiany i skontroluj ich poprawność!
 
 Kliknij przycisk **Zmień przynależność**.
 
-![Zmiana przynależności do grup](../imgs/zmien_pzynaleznosc.png)
+   .. image:: {static}/images/zmiana_nauczycieli.png
+       :alt: Przypisywanie nauczycieli
+![Zmiana przynależności do grup](images/zmien_pzynaleznosc.png)
 
 Przypisz uczniów do grup, kliknij odpowiednie pole w tabeli. Zapisz zmiany!
 
@@ -155,12 +191,14 @@ W bieżącym roku szkolnym skład grup można sprawdzić w Mobidzienniku.
 
 W sekcji *Ustawienia dziennika* wybierz **Uczniowie**:
 
-   ![Sekcja Ustawienia dziennika](../imgs/dziennik_oddzialu_ustawienia.png)
+   ![Sekcja Ustawienia dziennika](images/dziennik_oddzialu_ustawienia.png)
 
 Kliknij przycisk **Zmień opis przedmiotów**, aby zmienić oznaczenia poziomu nauczanych języków
 oraz wskazać przedmioty realizowane na poziomie rozszerzonym.
 
-![Zmiana oznaczeń przedmiotów](../imgs/opis_przedmiotow.png)
+   .. image:: {static}/images/zmiana_nauczycieli.png
+       :alt: Przypisywanie nauczycieli
+![Zmiana oznaczeń przedmiotów](images/opis_przedmiotow.png)
 
 Oznacz poziom nauczania języka oraz ewentualny zakres rozszerzony przedmiotu realizowane przez ucznia.
 Po zaznaczeniu ucznia i przedmiotu wybierz oznaczenie z prawej strony okna.

@@ -3,6 +3,7 @@ SITENAME = 'Wdrożenie dziennika Vulcan'
 SITEURL = ""
 
 PATH = "content"
+STATIC_PATHS = ['images']
 
 TIMEZONE = 'Europe/Warsaw'
 
@@ -33,3 +34,6 @@ DEFAULT_PAGINATION = False
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
+
+LOAD_CONTENT_CACHE = False
+THEME = "blue_dark"
