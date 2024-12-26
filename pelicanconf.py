@@ -36,4 +36,4 @@ DEFAULT_PAGINATION = False
 # RELATIVE_URLS = True
 
 LOAD_CONTENT_CACHE = False
-THEME = "blue_dark"
+THEME = "eCG"

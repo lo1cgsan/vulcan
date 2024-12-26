@@ -1,5 +1,5 @@
-Założenie i aktywacja konta
-############################
+Założenie konta
+###############
 
 :date: 2024-12-20 10:25
 :category: Vulcan
