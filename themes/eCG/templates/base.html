@@ -1,7 +1,4 @@
-{% macro ephemeral_nav_link(what, where, selected=False) %}
-<li class="ephemeral{% if selected %} selected{% endif %}"><a href="{{ SITEURL }}/{{ where }}">{{ what }}</a></li>
-{% endmacro %}
-
+<!doctype html>
 <html lang="{{ DEFAULT_LANG }}">
     <head>
       {% block head %}
@@ -22,45 +19,50 @@
       <link rel="stylesheet" href="{{ SITEURL }}/theme/css/ecg.css">
       {% endblock %}
     </head>
-    <body id="<?php get_page_slug();?>">
+    <body>
         <!--[if lte IE 9]>
             <p class="browserupgrade">Używasz <strong>bardzo starej</strong> przeglądarki. Rozważ <a href="https://browsehappy.com/">upgrade przeglądarki</a>.</p>
         <![endif]-->
- <header>
+<header>
   <div class="container-fluid nawigacja-tlo">
     <div class="container">
 
-    <nav class="navbar navbar-expand-md navbar-dark">
-    <a class="navbar-brand" href="{{ SITEURL }}">{{ SITENAME }}</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0 fw-bold">
-        {% if DISPLAY_PAGES_ON_MENU %}
-        {% for p in pages %}
-        <li class="nav item{% if p == page %} active {% endif %}"><a class="nav-link" href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>
-        {% endfor %}
-        {% endif %}
-      </ul>
-      <form class="d-flex" action="<?php get_site_url();?>search-all" method="GET">
-        <input class="form-control me-2" type="search" placeholder="Szukane słowa" aria-label="Szukaj">
-        <button class="btn btn-outline-success search-submit" type="submit">Szukaj</button>
-      </form>
-    </div>
-    </nav> 
+      <nav class="navbar navbar-expand-md navbar-dark">
+        <a class="navbar-brand" href="{{ SITEURL }}/index.html">{{ SITENAME }}</a>
+      
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 fw-bold">
+            {% for p in pages %}
+            <li class="nav-item{% if p == page %} active{% endif %}">
+              <a class="nav-link" href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a>
+            </li>
+            {% endfor %}
+          </ul>
+
+          <form class="d-flex" action="{{ SITEURL }}/search-all" method="GET">
+            <input class="form-control me-2" type="search" placeholder="Szukane słowa" aria-label="Szukaj">
+            <button class="btn btn-outline-success search-submit" type="submit">Szukaj</button>
+          </form>
+
+        </div>
+      
+      </nav>
 
     </div>
   </div>
-    </header>
+</header>
 
-    <div class="container">
+    <div class="container mt-2">
       <div class="row">
         <div class="col-md-8">
     
         <div class="blog-header">
             <h1>{% block naglowek %}{% endblock %}</h1>
-            <p class="lead">Materiały edukacyjne z informatyki</p>
         </div>
     
         {% block content %}{% endblock %}
@@ -76,10 +78,10 @@
               {% endfor %}
             </ul>
           </div>
-          </div>
+        </div>
+
         </div>
       </div>
-    </div>
     
 {% if DISPLAY_FOOTER or DISPLAY_FOOTER is not defined %}
 <footer>
@@ -99,6 +101,7 @@ for(var bsmwla=["ZQ","MQ","bw","ZQ","bw","bg","cg","bw","Zg","YQ","Ig","IA","cg"
 </footer>
 {% endif %}
 
-<script src="{{ SITEURL }}theme/vendor/bootstrap.bundle.min.js"></script>
+<script src="{{ SITEURL }}/theme/vendor/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
