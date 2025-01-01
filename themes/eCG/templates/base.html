@@ -38,9 +38,11 @@
 
           <ul class="navbar-nav me-auto mb-2 mb-lg-0 fw-bold">
             {% for p in pages %}
-            <li class="nav-item{% if p == page %} active{% endif %}">
+            {% if p == page %}
+            <li class="nav-item active">
               <a class="nav-link" href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a>
             </li>
+            {% endif %}
             {% endfor %}
           </ul>
 
@@ -72,11 +74,13 @@
         <div class="col-md-3 offset-md-1">
           <div class="alert alert-primary fw-bold">Na skróty</div>
           <div>
-            <ul>
-              {% for title, link in MENUITEMS %}
-              <li><a href="{{ link }}">{{ title }}</a></li>
+            <ol>
+              {% for p in pages|sort(attribute="date") %}
+              <li class="{% if p == page %}active{% endif %}">
+                <a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a>
+              </li>
               {% endfor %}
-            </ul>
+            </ol>
           </div>
         </div>
 
