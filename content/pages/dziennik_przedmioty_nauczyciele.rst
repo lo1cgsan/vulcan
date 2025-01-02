@@ -39,12 +39,12 @@ Przykładowa kolejność przedmiotów
 ==================================
 
 1. religia / etyka
-2. j. polski
-3. j. angielski
-4. j. niemiecki
-5. j. hiszpański
-6. j. francuski
-7. j. włoski
+2. jęz. polski
+3. jęz. angielski
+4. jęz. niemiecki
+5. jęz. hiszpański
+6. jęz. francuski
+7. jęz. włoski
 8. historia
 9. wos
 10. podstawy przedsiębiorczości
