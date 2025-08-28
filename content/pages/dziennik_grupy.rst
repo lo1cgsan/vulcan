@@ -39,7 +39,7 @@ Na prawą stronę przenieś nazwy grup zgodnie ze wskazówkami:
 - W przypadku wf-u dzielonego w klasie wybierz **WF_dz, WF_ch**.
 - W przypadku wf-u międzyoddziałowego wybieramy grupy opisane jako *międzyoddz.*, np. **WF dz międzyoddz. 1**.
 
-Wybór odpowiedniej grupy ułatwia plan lekcji w wersji HTML oraz (tylko teraz) plan lekcji w Mobidzienniku.
+Wybór odpowiedniej grupy ułatwia plan lekcji w wersji HTML.
 
 Przykłady wyboru grupy
 ======================
@@ -69,14 +69,6 @@ Lekcja Dzień        Grupy na planie HTML                             Grupy w dz
 1. Kliknięcie linku sali w oznaczeniu `r_geografia-1/4 #1gr 57`, czyli `57`, pozwala zobaczyć, który nauczyciel uczy daną grupę i z których klas składa się dana grupa.
 2. Oznaczenia `r_geografia-1/4` i `geografia-1/4` wskazują na tę samą grupę, w Vulcanie wybieramy wtedy jedną grupę, np. **GEO_pr**.
 3. Oznaczenia `#1gp` lub `#1gr` informują o poziomie podstawowym lub rozszerzonym przedmiotu.
-
-W bieżącym roku szkolnym podczas wybierania grup możemy wspomóc się analizą planu z Mobidziennika.
-
-   .. image:: {static}/images/plan_1AB_mobi.png
-       :alt: Plan klasy 1AB w Mobidzienniku
-
-1. Np. na 2. lekcji w poniedziałek i 3. lekcji we wtorek widzimy te same grupy z fizyki i geografii, dla których należy wybrać grupy **GEO_pr** / **FIZ_pr**.
-2. Na 8. i 9. lekcji w czwartek oraz 8. lekcji w piątek widzimy te same grupy z wf-u, dla których wybieramy oznaczenia **WF_dz_1** / **WF_ch_1** w klasach 1AB i 1DE.
 
 **Zapisz zmiany** i skontroluj ich poprawność!
 

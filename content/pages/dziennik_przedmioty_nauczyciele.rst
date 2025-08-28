@@ -38,29 +38,28 @@ Przedmioty
 Przykładowa kolejność przedmiotów
 ==================================
 
-1. religia / etyka
-2. jęz. polski
-3. jęz. angielski
-4. jęz. niemiecki
-5. jęz. hiszpański
-6. jęz. francuski
-7. jęz. włoski
-8. historia
-9. wos
-10. podstawy przedsiębiorczości
-11. geografia
-12. biologia
-13. chemia
-14. fizyka
-15. matematyka
-16. informatyka
-17. wychowanie fizyczne
-18. edb
-19. filozofia
-20. wdż
-21. zajęcia z wychowawcą
-22. historia i teraźniejszość
-23. biznes i zarządzanie
+1. religia
+2.  jęz. polski
+3.  jęz. angielski
+4.  jęz. niemiecki
+5. jęz. francuski
+6. jęz. hiszpański
+7.  jęz. włoski
+8.  historia
+9. edukacja obywatelska
+10. wos
+11.  geografia
+12. biznes i zarządzanie
+13. biologia
+14. chemia
+15. fizyka
+16. matematyka
+17. informatyka
+18. wychowanie fizyczne
+19. edb
+20. edukacja zdrowotna
+21. etyka
+22. zajęcia z wychowawcą
 
 Nauczyciele
 ************
